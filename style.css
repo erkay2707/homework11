@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: "Kanit", sans-serif;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    background-color: #cbe857;
+}
+.first {
+    h1{
+
+        color:  black;
+        font-size: 100px;
+    }
+
+    .choices {
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+        gap: 20px;
+    }
+
+    .choices {
+
+        .rock{
+            font-size: 30px;
+            border: 5px solid #323843;
+            background-color: #c68dff;
+            padding: 20px 70px;
+            border-radius: 30px;
+        }
+        .rock:active {
+            background-color: #805da3 ;
+        }
+        .paper{
+            font-size: 30px;
+            border: 5px solid #323843;
+            background-color: #c68dff;
+            padding: 20px 70px;
+            border-radius: 30px;
+        }
+
+        .paper:active {
+            background-color: #805da3;
+
+        }
+        .scissors{
+            font-size: 30px;
+            border: 5px solid #323843;
+            background-color: #c68dff;
+            padding: 20px 50px;
+            border-radius: 30px;
+        }
+        .scissors:active {
+            background-color: #805da3 ;
+        }
+    }
+    #result {
+        font-size: 50px;
+        padding: 50px;
+    }
+
+}
+
+
+.second {
+    margin-top: 50px;
+    h1{
+        color:  black;
+        font-size: 100px;
+    }
+    label{
+        color:  black;
+        font-size: 50px;
+    }
+    input{
+        font-size: 15px;
+        border: 3px solid #323843;
+        background-color: #c68dff;
+        padding: 20px;
+        border-radius: 30px;
+    }
+    button{
+        font-size: 30px;
+        border: 3px solid #323843;
+        background-color:green;
+        padding: 15px 40px;
+        border-radius: 30px;
+    }
+    #resulting {
+        font-size: 40px;
+        padding-top: 30px;
+    }
+}
+
+
+
+
+
